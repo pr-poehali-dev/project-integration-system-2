@@ -1,21 +1,15 @@
-import { Navbar } from "@/components/Navbar"
-import { Hero } from "@/components/Hero"
-import { FeaturedDestinations } from "@/components/FeaturedDestinations"
-import { WhyChooseUs } from "@/components/WhyChooseUs"
-import { PopularPackages } from "@/components/PopularPackages"
-import { Newsletter } from "@/components/Newsletter"
-import { Footer } from "@/components/Footer"
+import { ItalyNavbar } from "@/components/ItalyNavbar"
+import { ItalyHero } from "@/components/ItalyHero"
+import { ItalySights } from "@/components/ItalySights"
+import { ItalyFashion } from "@/components/ItalyFashion"
 
 export default function Index() {
   return (
     <main className="min-h-screen">
-      <Navbar />
-      <Hero />
-      <FeaturedDestinations />
-      <WhyChooseUs />
-      <PopularPackages />
-      <Newsletter />
-      <Footer />
+      <ItalyNavbar />
+      <ItalyHero />
+      <ItalySights />
+      <ItalyFashion />
     </main>
   )
 }
